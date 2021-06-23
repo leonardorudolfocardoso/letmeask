@@ -1,11 +1,12 @@
 import { Button } from './components/Button';
+import { Home } from './pages/Home';
+
+import './services/firebase';
+import './styles/global.scss';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-      <Button text="Botão 1" >children</Button>
-    </div>
+    <Home />
   );
 }
 
